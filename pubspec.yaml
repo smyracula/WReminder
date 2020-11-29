@@ -1,0 +1,65 @@
+name: WReminder
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  circular_bottom_navigation: ^0.9.1
+  sqflite:
+  path_provider:
+  intl:
+  flutter_staggered_grid_view:
+  cupertino_icons: ^0.1.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+
+  uses-material-design: true
+
+
+  fonts:
+    - family: BottomNavBarIcons
+      fonts:
+        - asset: assets/fonts/BottomNavBarIcons.ttf
+    - family: Sailec
+      fonts:
+        - asset: assets/fonts/sailec_black_italic.ttf
+          style: italic
+          weight: 900
+        - asset: assets/fonts/sailec_black.ttf
+          weight: 900
+        - asset: assets/fonts/sailec_bold_italic.ttf
+          style: italic
+          weight: 700
+        - asset: assets/fonts/sailec_bold.ttf
+          weight: 700
+        - asset: assets/fonts/sailec_medium_italic.ttf
+          weight: 500
+        - asset: assets/fonts/sailec_medium.ttf
+          style: italic
+          weight: 500
+        - asset: assets/fonts/sailec_italic.ttf
+          style: italic
+          weight: 400
+        - asset: assets/fonts/sailec.ttf
+          weight: 400
+        - asset: assets/fonts/sailec_light_italic.ttf
+          style: italic
+          weight: 300
+        - asset: assets/fonts/sailec_light.ttf
+          weight: 300
+        - asset: assets/fonts/sailec_thin_italic.ttf
+          style: italic
+          weight: 100
+        - asset: assets/fonts/sailec_thin.ttf
+          weight: 100
